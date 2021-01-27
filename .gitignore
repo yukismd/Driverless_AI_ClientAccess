@@ -1,0 +1,13 @@
+
+# jupyter
+.ipynb_checkpoints
+
+# tmp folder
+tmp
+
+# mac files
+.DS_Store
+
+# id, pass for dai client access
+idpass.json
+
