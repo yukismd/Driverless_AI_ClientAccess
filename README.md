@@ -8,4 +8,4 @@ Python and R client for H2O Driverless AI
 
 ---
 ## Example
-- XXX
+- [PyClient_GettingStarted.ipynb](PyClient_GettingStarted.ipynb): Python Client実施例（Driverless AI画面との比較付き）
