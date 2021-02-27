@@ -1,0 +1,11 @@
+Passenger_Id,pclass,survived,name_with_salutions,name_without_salutions,sex,age,sibsp,parch,ticket,fare,cabin,embarked,boat,home.dest
+1,3,0,"Andersson, Mr. Anders Johan","Andersson,  Anders Johan",male,39,1,5,347082,31.275,,S,,"Sweden Winnipeg, MN"
+2,3,1,"McGowan, Miss. Anna ""Annie""","McGowan,  Anna ""Annie""",female,15,0,0,330923,8.0292,,Q,,
+3,2,1,"Caldwell, Mr. Albert Francis","Caldwell,  Albert Francis",male,26,1,1,248738,29,,S,13,"Bangkok, Thailand / Roseville, IL"
+4,3,0,"Augustsson, Mr. Albert","Augustsson,  Albert",male,23,0,0,347468,7.8542,,S,,"Krakoryd, Sweden Bloomington, IL"
+5,3,1,"Lindqvist, Mr. Eino William","Lindqvist,  Eino William",male,20,1,0,STON/O 2. 3101285,7.925,,S,15,
+6,2,0,"Carter, Mrs. Ernest Courtenay (Lilian Hughes)","Carter,  Ernest Courtenay (Lilian Hughes)",female,44,1,0,244252,26,,S,,London
+7,3,0,"Sage, Mrs. John (Annie Bullen)","Sage,  John (Annie Bullen)",female,,1,9,CA. 2343,69.55,,S,,
+8,2,0,"McCrie, Mr. James Matthew","McCrie,  James Matthew",male,30,0,0,233478,13,,S,,"Sarnia, ON"
+9,3,0,"Adams, Mr. John","Adams,  John",male,26,0,0,341826,8.05,,S,,"Bournemouth, England"
+10,3,0,"Lindahl, Miss. Agda Thorilda Viktoria","Lindahl,  Agda Thorilda Viktoria",female,25,0,0,347071,7.775,,S,,
