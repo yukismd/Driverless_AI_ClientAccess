@@ -7,7 +7,7 @@ Python and R client for H2O Driverless AI
 - [Driverless AI Python Client](http://docs.h2o.ai/driverless-ai/pyclient/docs/html/index.html)
 
 ---
-## Example
+## Examples
 ### Non-Timeseries (IID Table)
 - [IID_Table/PyClient_GettingStarted.ipynb](IID_Table/PyClient_GettingStarted.ipynb): まずはじめに（Driverless AI画面との比較付き実行例）
 - [IID_Table/handling_experiment.ipynb](IID_Table/handling_experiment.ipynb): スコアリングの実施例
