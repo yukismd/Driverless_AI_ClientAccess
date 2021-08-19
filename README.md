@@ -17,3 +17,4 @@ Python and R client for H2O Driverless AI
 - [Timeseries/TimeSeries_res_check.ipynb](Timeseries/TimeSeries_res_check.ipynb): Time Series Experimentの予測結果の確認(テストデータにおける結果をまとめて確認したい)
 ### Optimization
 - [Optimization/GPyOpt_DAI_test.ipynb](Optimization/GPyOpt_DAI_test.ipynb): （検証コード）Driverless AIのスコアリング機能を目的関数とした、GPyOptによるベイズ最適化
+
