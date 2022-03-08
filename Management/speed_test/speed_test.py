@@ -94,13 +94,15 @@ def main():
 
     for _, row in df_expperiments_info.iterrows():      # Experiment Metaの行でループ
 
-        start_time = datetime.datetime.now().strftime('%Y年%m月%d日%H時%M分%S秒')   # 開始時間
         data_name = row['data_name']  # 実験データ
-        print('#####-----  開始時間: ', start_time, '  -----#####')
         print('#####-----  実験データ: ', data_name, '  -----#####')
 
         for exp_try in range(row['try_n']):    # 同じ実験データでTry回数実施
             print('#####-----  Try: ', exp_try, '  -----#####')
+
+            start_time = datetime.datetime.now().strftime('%Y年%m月%d日%H時%M分%S秒')   # 開始時間
+            print('#####-----  開始時間: ', start_time, '  -----#####')
+        
             s3url = row['s3url']  # DAIにアップされてない場合の取得先S3
             # Experiment設定
             target_column = row['target_column']

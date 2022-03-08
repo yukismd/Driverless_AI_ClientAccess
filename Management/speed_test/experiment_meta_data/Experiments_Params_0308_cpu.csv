@@ -1,5 +1,5 @@
 ﻿try_n,data_name,s3url,target_column,task,drop_columns,enable_gpus
 3,BostonHousing.csv,s3://h2oai-jp-public/sample_data/boston_house/BostonHousing.csv,MEDV,regression,,FALSE
 3,UCI_Credit_Card3.csv,s3://h2oai-jp-public/sample_data/UCI_CreditCard/UCI_Credit_Card3.csv,default_payment_next_month,classification,"ID,LIMIT_BAL",FALSE
-3,loan_level_500K.csv,s3://data.h2o.ai/DAI-Tutorials/loan_level_500k.csv,DELINQUENT,classification,"PREPAYMENT_PENALTY_MORTGAGE_FLAG,PREPAID",FALSE
+3,loan_level_500k.csv,s3://data.h2o.ai/DAI-Tutorials/loan_level_500k.csv,DELINQUENT,classification,"PREPAYMENT_PENALTY_MORTGAGE_FLAG,PREPAID",FALSE
 3,loan_level_1M.csv,s3://data.h2o.ai/DAI-Tutorials/loan_level_1M.csv,DELINQUENT,classification,"PREPAYMENT_PENALTY_MORTGAGE_FLAG,PREPAID",FALSE
