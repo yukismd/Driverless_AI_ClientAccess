@@ -1,0 +1,2 @@
+try_n,data_name,s3url,target_column,task,drop_columns,enable_gpus
+1,loan_level_500K.csv,s3://data.h2o.ai/DAI-Tutorials/loan_level_500k.csv,DELINQUENT,classification,"PREPAYMENT_PENALTY_MORTGAGE_FLAG,PREPAID",FALSE
