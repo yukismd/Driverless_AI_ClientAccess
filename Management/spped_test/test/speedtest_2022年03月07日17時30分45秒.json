@@ -1,0 +1,14 @@
+{
+    "Data_Name": "BostonHousing.csv",
+    "Try": 1,
+    "Datasize_mb": 0.05509185791015625,
+    "N_Observation": 506,
+    "N_features": 13,
+    "Duration_min": 6.002411071459452,
+    "Experiment_Size_mb": 1067.3634614944458,
+    "Acc_Time_Interpret": [
+        7,
+        2,
+        8
+    ]
+}
