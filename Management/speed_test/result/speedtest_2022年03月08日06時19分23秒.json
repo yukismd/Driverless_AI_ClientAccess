@@ -1,0 +1,15 @@
+{
+    "Meta_Data": "experiment_meta_data/Experiments_Params_0308_cpu.csv",
+    "Data_Name": "loan_level_500k.csv",
+    "Try": 3,
+    "Datasize_mb": 78.34954833984375,
+    "N_Observation": 500137,
+    "N_features": 24,
+    "Duration_min": 51.270917836825056,
+    "Experiment_Size_mb": 1279.8034400939941,
+    "Acc_Time_Interpret": [
+        7,
+        5,
+        5
+    ]
+}
