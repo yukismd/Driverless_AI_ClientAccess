@@ -11,3 +11,6 @@ tmp
 # id, pass for dai client access
 idpass.json
 
+
+nohup.out
+nohup.out*
