@@ -1,0 +1,15 @@
+{
+    "Meta_Data": "experiment_meta_data/Experiments_Params_0315_cpu.csv",
+    "Data_Name": "car_deals.zip",
+    "Try": 3,
+    "Datasize_mb": 749.219669342041,
+    "N_Observation": 34571,
+    "N_features": 4,
+    "Duration_min": 88.65975844462713,
+    "Experiment_Size_mb": 3369.043342590332,
+    "Acc_Time_Interpret": [
+        6,
+        3,
+        7
+    ]
+}

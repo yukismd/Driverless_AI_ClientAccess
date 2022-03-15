@@ -1,0 +1,15 @@
+{
+    "Meta_Data": "experiment_meta_data/Experiments_Params_0315_Gpu.csv",
+    "Data_Name": "car_deals.zip",
+    "Try": 3,
+    "Datasize_mb": 749.219669342041,
+    "N_Observation": 34571,
+    "N_features": 4,
+    "Duration_min": 48.73603047132492,
+    "Experiment_Size_mb": 3392.390763282776,
+    "Acc_Time_Interpret": [
+        6,
+        3,
+        7
+    ]
+}

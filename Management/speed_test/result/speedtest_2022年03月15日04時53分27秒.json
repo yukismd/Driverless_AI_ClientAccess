@@ -1,0 +1,15 @@
+{
+    "Meta_Data": "experiment_meta_data/Experiments_Params_0315_Gpu.csv",
+    "Data_Name": "histopathology_train.zip",
+    "Try": 3,
+    "Datasize_mb": 535.8888864517212,
+    "N_Observation": 20000,
+    "N_features": 1,
+    "Duration_min": 28.898588105042776,
+    "Experiment_Size_mb": 2205.982132911682,
+    "Acc_Time_Interpret": [
+        7,
+        2,
+        8
+    ]
+}
