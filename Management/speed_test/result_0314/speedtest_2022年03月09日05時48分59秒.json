@@ -1,0 +1,15 @@
+{
+    "Meta_Data": "experiment_meta_data/Experiments_Params_0308_Gpu.csv",
+    "Data_Name": "loan_level_1M.csv",
+    "Try": 3,
+    "Datasize_mb": 156.64968872070312,
+    "N_Observation": 1000000,
+    "N_features": 24,
+    "Duration_min": 73.81337367296219,
+    "Experiment_Size_mb": 1355.7192153930664,
+    "Acc_Time_Interpret": [
+        7,
+        5,
+        5
+    ]
+}
