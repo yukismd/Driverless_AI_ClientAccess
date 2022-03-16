@@ -18,5 +18,7 @@ Python and R client for H2O Driverless AI
 - [Timeseries/TimeSeries_res_check.ipynb](Timeseries/TimeSeries_res_check.ipynb): Time Series Experimentの予測結果の確認(テストデータにおける結果をまとめて確認したい)
 ### Optimization
 - [Optimization/GPyOpt_DAI_test.ipynb](Optimization/GPyOpt_DAI_test.ipynb): （検証コード）Driverless AIのスコアリング機能を目的関数とした、GPyOptによるベイズ最適化
-### Experiment・Management
+### Management
 - [Management/mlflow.ipynb](Management/mlflow.ipynb): MLFlowを用いたDriverless AIのExperimentの管理（基本操作）
+### Experiment
+- [Experiment/speed_test_result.ipynb](Experiment/speed_test_result.ipynb): CPUマシン vs GPUマシン
