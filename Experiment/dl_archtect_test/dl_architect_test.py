@@ -153,6 +153,7 @@ def run_whole_experiments(dai_address: str, dai_user: str, dai_password: str, df
                          N_features = ds.shape[1] - len(drop_columns) - 1,
                          Shape_Train = ds_split['train_dataset'].shape,
                          Shape_Test = ds_split['test_dataset'].shape,
+                         Network = tensorflow_image_pretrained_models,
                          Duration_min = ex.run_duration/60,
                          Experiment_Size_mb = ex.size/1024**2,
                          Acc_Time_Interpret = (ex.settings['accuracy'], ex.settings['time'], ex.settings['interpretability']),
