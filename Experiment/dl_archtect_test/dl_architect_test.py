@@ -27,7 +27,7 @@ expperiments_info = sys.argv[4]   # like 'experiment_meta_data/Experiments_Param
 print('Experiments Meta： {}'.format(expperiments_info))
 
 
-def get_dai_client(daiaddress, daipassword) -> 'driverlessai._core.Client':
+def get_dai_client(daiaddress, daiuser, daipassword) -> 'driverlessai._core.Client':
     '''
     DAIサーバへの接続
     ----------
@@ -36,7 +36,7 @@ def get_dai_client(daiaddress, daipassword) -> 'driverlessai._core.Client':
     '''
     print('----- start server connection : get_dai_client -----')
     # Driverless AIサーバーへの接続
-    dai = driverlessai.Client(address=daiaddress, username=dai_password, password=daipassword)
+    dai = driverlessai.Client(address=daiaddress, username=daiuser, password=daipassword)
     return dai
 
 def get_dataset(daiobj, dataname, dataurl) -> 'driverlessai._datasets.Dataset': 
@@ -89,7 +89,7 @@ def get_experiment(daiobj, splitdata, target_column, task, drop_columns, tensorf
     return ex
 
 
-def run_whole_experiments(dai_address: str, dai_password: str, df_expperiments_info: pd.DataFrame) -> None:
+def run_whole_experiments(dai_address: str, dai_user: str, dai_password: str, df_expperiments_info: pd.DataFrame) -> None:
 
     # データ情報
     data_name = df_expperiments_info['data_name'][0]
@@ -97,7 +97,7 @@ def run_whole_experiments(dai_address: str, dai_password: str, df_expperiments_i
     print('#####-----  利用データ: ', data_name, '  -----#####')
 
     print('*************** DAIへ接続 ***************')
-    dai = get_dai_client(daiaddress=dai_address, daipassword=dai_password)
+    dai = get_dai_client(daiaddress=dai_address, daiuser=dai_user, daipassword=dai_password)
     print(type(dai))
     print('DAIバージョン: {}'.format(dai.server.version))
 
@@ -167,7 +167,7 @@ def main():
     # Experiment Meta
     df_expperiments_info = pd.read_csv(expperiments_info)
     #print(df_expperiments_info.dtypes)
-    run_whole_experiments(dai_address=dai_address, dai_password=dai_password, df_expperiments_info=df_expperiments_info)
+    run_whole_experiments(dai_address=dai_address, dai_user=dai_user, dai_password=dai_password, df_expperiments_info=df_expperiments_info)
 
 
 if __name__ == '__main__':
