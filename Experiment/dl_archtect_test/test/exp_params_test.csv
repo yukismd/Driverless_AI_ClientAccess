@@ -1,0 +1,3 @@
+﻿try_n,data_name,s3url,target_column,task,drop_columns,enable_gpus,test_mode,tensorflow_image_pretrained_models
+1,car_deals.zip,s3://h2o-public-test-data/bigdata/server/ImageData/car_deals.zip,Price,regression,"Manufacturer,Model,Year,Category,Mileage,FuelType,EngineVolume,DriveWheels,GearBox,Doors,Wheel,Color,InteriorColor,LeatherInterior",,TRUE,resnet50
+1,car_deals.zip,s3://h2o-public-test-data/bigdata/server/ImageData/car_deals.zip,Price,regression,"Manufacturer,Model,Year,Category,Mileage,FuelType,EngineVolume,DriveWheels,GearBox,Doors,Wheel,Color,InteriorColor,LeatherInterior",,TRUE,seresnext50
