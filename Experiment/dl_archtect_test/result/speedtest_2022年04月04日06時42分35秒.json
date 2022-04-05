@@ -1,0 +1,33 @@
+{
+    "Data_Name": "car_deals.zip",
+    "Try": 1,
+    "Datasize_mb": 749.219669342041,
+    "N_Observation": 34571,
+    "N_features": 1,
+    "Shape_Train": [
+        25928,
+        16
+    ],
+    "Shape_Test": [
+        8643,
+        16
+    ],
+    "Duration_min": 10.155083986123403,
+    "Experiment_Size_mb": 1310.58056640625,
+    "Acc_Time_Interpret": [
+        1,
+        1,
+        8
+    ],
+    "Metrics": {
+        "scorer": "RMSE",
+        "val_score": 5836.36279296875,
+        "val_score_sd": 126.04283142089844,
+        "val_roc_auc": null,
+        "val_pr_auc": null,
+        "test_score": 5326.6044921875,
+        "test_score_sd": 127.44026947021484,
+        "test_roc_auc": null,
+        "test_pr_auc": null
+    }
+}
