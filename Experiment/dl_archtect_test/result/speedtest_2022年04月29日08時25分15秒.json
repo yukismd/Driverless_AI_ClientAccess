@@ -1,0 +1,34 @@
+{
+    "Data_Name": "histopathology_train.zip",
+    "Try": 1,
+    "Datasize_mb": 535.8888864517212,
+    "N_Observation": 20000,
+    "N_features": 1,
+    "Shape_Train": [
+        15000,
+        2
+    ],
+    "Shape_Test": [
+        5000,
+        2
+    ],
+    "Network": "efficientnetb2",
+    "Duration_min": 35.0106461763382,
+    "Experiment_Size_mb": 1528.1155967712402,
+    "Acc_Time_Interpret": [
+        7,
+        2,
+        8
+    ],
+    "Metrics": {
+        "scorer": "AUC",
+        "val_score": 0.9180360254841965,
+        "val_score_sd": 0.0039582147724467704,
+        "val_roc_auc": 0.9180360254841965,
+        "val_pr_auc": 0.9000979291724315,
+        "test_score": 0.923385896091991,
+        "test_score_sd": 0.0039582147724467704,
+        "test_roc_auc": 0.923385896091991,
+        "test_pr_auc": 0.9018652645705448
+    }
+}
