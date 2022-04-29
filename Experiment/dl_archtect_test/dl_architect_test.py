@@ -168,6 +168,7 @@ def main():
     # Experiment Meta
     df_expperiments_info = pd.read_csv(expperiments_info)
     #print(df_expperiments_info.dtypes)
+    print(df_expperiments_info)
     run_whole_experiments(dai_address=dai_address, dai_user=dai_user, dai_password=dai_password, df_expperiments_info=df_expperiments_info)
 
 
