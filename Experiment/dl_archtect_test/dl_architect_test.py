@@ -8,6 +8,7 @@ import os
 import sys
 import json
 import datetime
+import math
 
 import pandas as pd
 import numpy as np
@@ -124,10 +125,10 @@ def run_whole_experiments(dai_address: str, dai_user: str, dai_password: str, df
         # Experiment設定
         target_column = row['target_column']
         task = row['task']    # 'regression', 'classification', or 'unsupervised'
-        if row['drop_columns']  is np.nan:     # dropped clmを指定しない場合
+        if (row['drop_columns'] is np.nan) or (math.isnan(row['drop_columns'])):     # dropped clmを指定しない場合
             drop_columns = []
         else:
-            drop_columns = row['drop_columns'] .split(',')     # strをList化
+            drop_columns = row['drop_columns'].split(',')     # strをList化
         #print(drop_columns)
         test_mode = row['test_mode']
         
