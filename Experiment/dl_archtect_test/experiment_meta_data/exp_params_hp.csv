@@ -1,0 +1,11 @@
+﻿try_n,data_name,s3url,target_column,task,drop_columns,enable_gpus,test_mode,tensorflow_image_pretrained_models
+1,histopathology_train.zip,s3://h2o-public-test-data/bigdata/server/ImageData/histopathology_train.zip,label,classification,,,FALSE,densenet121
+1,histopathology_train.zip,s3://h2o-public-test-data/bigdata/server/ImageData/histopathology_train.zip,label,classification,,,FALSE,efficientnetb0
+1,histopathology_train.zip,s3://h2o-public-test-data/bigdata/server/ImageData/histopathology_train.zip,label,classification,,,FALSE,efficientnetb2
+1,histopathology_train.zip,s3://h2o-public-test-data/bigdata/server/ImageData/histopathology_train.zip,label,classification,,,FALSE,inception_v3
+1,histopathology_train.zip,s3://h2o-public-test-data/bigdata/server/ImageData/histopathology_train.zip,label,classification,,,FALSE,mobilenetv2
+1,histopathology_train.zip,s3://h2o-public-test-data/bigdata/server/ImageData/histopathology_train.zip,label,classification,,,FALSE,resnet34
+1,histopathology_train.zip,s3://h2o-public-test-data/bigdata/server/ImageData/histopathology_train.zip,label,classification,,,FALSE,resnet50
+1,histopathology_train.zip,s3://h2o-public-test-data/bigdata/server/ImageData/histopathology_train.zip,label,classification,,,FALSE,seresnet50
+1,histopathology_train.zip,s3://h2o-public-test-data/bigdata/server/ImageData/histopathology_train.zip,label,classification,,,FALSE,seresnext50
+1,histopathology_train.zip,s3://h2o-public-test-data/bigdata/server/ImageData/histopathology_train.zip,label,classification,,,FALSE,xception
