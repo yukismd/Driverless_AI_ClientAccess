@@ -13,6 +13,8 @@ Python and R client for H2O Driverless AI
 - [IID_Table/scoring.ipynb](IID_Table/scoring.ipynb): スコアリングの実施例
 - [IID_Table/data_recipe.ipynb](IID_Table/data_recipe.ipynb): データレシピ（テキストのトークン化）の適用とスコアリング
 - [IID_Table/ModelDiagnostics.ipynb](IID_Table/ModelDiagnostics.ipynb): Model Diagnostics
+- [IID_Table/MLI.ipynb](IID_Table/MLI.ipynb): Machine Learning Interpretability (MLI)
+
 
 ### Timeseries
 - [Timeseries/DAI_PyClient_TS_example.ipynb](Timeseries/DAI_PyClient_TS_example.ipynb): Time Series Experimentの実施例
