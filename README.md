@@ -12,8 +12,8 @@ Python and R client for H2O Driverless AI
 - [IID_Table/PyClient_GettingStarted.ipynb](IID_Table/PyClient_GettingStarted.ipynb): まずはじめに（Driverless AI画面との比較付き実行例）
 - [IID_Table/scoring.ipynb](IID_Table/scoring.ipynb): スコアリングの実施例
 - [IID_Table/data_recipe.ipynb](IID_Table/data_recipe.ipynb): データレシピ（テキストのトークン化）の適用とスコアリング
-- [IID_Table/ModelDiagnostics.ipynb](IID_Table/ModelDiagnostics.ipynb): Model Diagnostics
-- [IID_Table/MLI.ipynb](IID_Table/MLI.ipynb): Machine Learning Interpretability (MLI)
+- [IID_Table/ModelDiagnostics2.ipynb](IID_Table/ModelDiagnostics2.ipynb): Model Diagnostics
+- [IID_Table/MLI2.ipynb](IID_Table/MLI2.ipynb): Machine Learning Interpretability (MLI)
 
 
 ### Timeseries
